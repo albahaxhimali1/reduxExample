@@ -12,7 +12,6 @@ function User(props) {
         return `${props.user.first_name} ${props.user.last_name}`
     }
 
-
     return (
         <div className="user-container">
             <div className="button-holder">
