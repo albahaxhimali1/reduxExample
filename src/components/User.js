@@ -13,9 +13,13 @@ function User(props) {
     }
 
     return (
-        <div>
-            <button onClick={getUser}>Get user</button>
-            {fullName()}
+        <div className="user-container">
+            <div className="button-holder">
+                <button onClick={getUser} className="user-button">Get user</button>
+            </div>
+            <div className="fullname-holder">
+                {fullName()}
+            </div>
         </div>
     );
 }
